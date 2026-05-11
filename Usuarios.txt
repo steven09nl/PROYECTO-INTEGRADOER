@@ -18,9 +18,3 @@ COMMIT;
 
 -- 6. Verificamos que se hayan guardado correctamente
 SELECT * FROM Usuario;
-
-dir
-mvn clean install
-mvn tomcat7:run
-
-http://localhost:8081/
